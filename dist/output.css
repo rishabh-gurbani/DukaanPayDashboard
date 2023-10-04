@@ -567,6 +567,10 @@ video {
   margin-left: 14rem;
 }
 
+.box-border {
+  box-sizing: border-box;
+}
+
 .flex {
   display: flex;
 }
@@ -592,6 +596,14 @@ video {
   height: 100vh;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
+.w-1\/5 {
+  width: 20%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -609,12 +621,22 @@ video {
   width: 100%;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0;
 }
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .flex-col {
@@ -762,6 +784,98 @@ video {
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'url\(http\:\/\/cdn1\.iconfinder\.com\/data\/icons\/cc_mono_icon_set\/blacks\/16x16\/br_down\.png\)\'\)\] {
+  background-image: url('url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)');
+}
+
+.bg-\[url\(http\:\/\/cdn1\.iconfinder\.com\/data\/icons\/cc_mono_icon_set\/blacks\/16x16\/br_down\.png\)\] {
+  background-image: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png);
+}
+
+.bg-\[url\(\'http\:\/\/cdn1\.iconfinder\.com\/data\/icons\/cc_mono_icon_set\/blacks\/16x16\/br_down\.png\'\)\] {
+  background-image: url('http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png');
+}
+
+.bg-\[url\(\'\.\.\/\'\)\] {
+  background-image: url('../');
+}
+
+.bg-\[url\(\'\.\.\/public\/images\/\'\)\] {
+  background-image: url('../public/images/');
+}
+
+.bg-\[url\(\'\.\.\/public\/images\/arrow\.svg\'\)\] {
+  background-image: url('../public/images/arrow.svg');
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
+.bg-\[244px\] {
+  background-position: 244px;
+}
+
+.bg-\[24px\] {
+  background-position: 24px;
+}
+
+.bg-\[84px\] {
+  background-position: 84px;
+}
+
+.bg-\[94px\] {
+  background-position: 94px;
+}
+
+.bg-\[104px\] {
+  background-position: 104px;
+}
+
+.bg-\[100px\] {
+  background-position: 100px;
+}
+
+.bg-\[110px\] {
+  background-position: 110px;
+}
+
+.bg-\[105px\] {
+  background-position: 105px;
+}
+
+.bg-\[115px\] {
+  background-position: 115px;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-\[10px\] {
+  background-position: 10px;
+}
+
+.bg-\[107px\] {
+  background-position: 107px;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -860,12 +974,37 @@ video {
   padding-bottom: 9px;
 }
 
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
+}
+
+.pr-\[34px\] {
+  padding-right: 34px;
 }
 
 .text-left {
@@ -942,6 +1081,15 @@ video {
   color: rgb(255 255 255 / 0.8);
 }
 
+.text-black\/30 {
+  color: rgb(0 0 0 / 0.3);
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -989,6 +1137,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:bg-nav-button-hover:hover {
   background-color: rgba(255, 255, 255, 0.05);
 }
@@ -998,7 +1150,20 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-primary-blue\/70:hover {
+  color: rgb(20 110 180 / 0.7);
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.active\:outline-none:active {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.group:hover .group-hover\:text-primary-blue\/50 {
+  color: rgb(20 110 180 / 0.5);
 }
