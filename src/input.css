@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'GalanoGrotesqueMedium';
-    src: url("../src/fonts/GalanoGrotesqueAltMedium.otf") format("opentype");
-}
-
-@font-face {
-    font-family: 'GalanoGrotesqueLight';
-    src: url("../src/fonts/GalanoGrotesqueAltLight.otf") format("opentype");
+    font-family: 'Archivo';
+    src: url("../src/fonts/Archivo-Font.ttf");
 }

@@ -538,9 +538,34 @@ video {
   position: fixed;
 }
 
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
+}
+
+.mx-1\.5 {
+  margin-left: 0.375rem;
+  margin-right: 0.375rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-0\.5 {
+  margin-bottom: 0.125rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .mb-3 {
@@ -565,10 +590,6 @@ video {
 
 .ml-56 {
   margin-left: 14rem;
-}
-
-.box-border {
-  box-sizing: border-box;
 }
 
 .flex {
@@ -596,10 +617,6 @@ video {
   height: 100vh;
 }
 
-.h-1 {
-  height: 0.25rem;
-}
-
 .w-1\/5 {
   width: 20%;
 }
@@ -619,10 +636,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .flex-shrink-0 {
@@ -784,88 +797,8 @@ video {
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'url\(http\:\/\/cdn1\.iconfinder\.com\/data\/icons\/cc_mono_icon_set\/blacks\/16x16\/br_down\.png\)\'\)\] {
-  background-image: url('url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)');
-}
-
-.bg-\[url\(http\:\/\/cdn1\.iconfinder\.com\/data\/icons\/cc_mono_icon_set\/blacks\/16x16\/br_down\.png\)\] {
-  background-image: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png);
-}
-
-.bg-\[url\(\'http\:\/\/cdn1\.iconfinder\.com\/data\/icons\/cc_mono_icon_set\/blacks\/16x16\/br_down\.png\'\)\] {
-  background-image: url('http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png');
-}
-
-.bg-\[url\(\'\.\.\/\'\)\] {
-  background-image: url('../');
-}
-
-.bg-\[url\(\'\.\.\/public\/images\/\'\)\] {
-  background-image: url('../public/images/');
-}
-
 .bg-\[url\(\'\.\.\/public\/images\/arrow\.svg\'\)\] {
   background-image: url('../public/images/arrow.svg');
-}
-
-.bg-right {
-  background-position: right;
-}
-
-.bg-right-bottom {
-  background-position: right bottom;
-}
-
-.bg-\[244px\] {
-  background-position: 244px;
-}
-
-.bg-\[24px\] {
-  background-position: 24px;
-}
-
-.bg-\[84px\] {
-  background-position: 84px;
-}
-
-.bg-\[94px\] {
-  background-position: 94px;
-}
-
-.bg-\[104px\] {
-  background-position: 104px;
-}
-
-.bg-\[100px\] {
-  background-position: 100px;
-}
-
-.bg-\[110px\] {
-  background-position: 110px;
-}
-
-.bg-\[105px\] {
-  background-position: 105px;
-}
-
-.bg-\[115px\] {
-  background-position: 115px;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-\[10px\] {
-  background-position: 10px;
 }
 
 .bg-\[107px\] {
@@ -934,6 +867,11 @@ video {
   padding-right: 2rem;
 }
 
+.px-\[8\.5px\] {
+  padding-left: 8.5px;
+  padding-right: 8.5px;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -959,6 +897,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -974,37 +917,16 @@ video {
   padding-bottom: 9px;
 }
 
-.py-3\.5 {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
-}
-
 .pb-2 {
   padding-bottom: 0.5rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pr-5 {
-  padding-right: 1.25rem;
-}
-
-.pr-6 {
-  padding-right: 1.5rem;
-}
-
-.pr-7 {
-  padding-right: 1.75rem;
-}
-
 .pr-\[34px\] {
   padding-right: 34px;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-left {
@@ -1013,14 +935,6 @@ video {
 
 .text-right {
   text-align: right;
-}
-
-.font-primary {
-  font-family: GalanoGrotesqueMedium;
-}
-
-.font-secondary {
-  font-family: GalanoGrotesqueLight;
 }
 
 .text-13 {
@@ -1057,9 +971,26 @@ video {
   font-weight: 700;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-extralight {
+  font-weight: 200;
+}
+
 .text-\[\#4D4D4D\] {
   --tw-text-opacity: 1;
   color: rgb(77 77 77 / var(--tw-text-opacity));
+}
+
+.text-\[\#F2F2F2\] {
+  --tw-text-opacity: 1;
+  color: rgb(242 242 242 / var(--tw-text-opacity));
 }
 
 .text-filter-button-text {
@@ -1067,9 +998,19 @@ video {
   color: rgb(128 128 128 / var(--tw-text-opacity));
 }
 
+.text-heading {
+  --tw-text-opacity: 1;
+  color: rgb(26 24 30 / var(--tw-text-opacity));
+}
+
 .text-primary-blue {
   --tw-text-opacity: 1;
   color: rgb(20 110 180 / var(--tw-text-opacity));
+}
+
+.text-subheading {
+  --tw-text-opacity: 1;
+  color: rgb(77 77 77 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1081,13 +1022,9 @@ video {
   color: rgb(255 255 255 / 0.8);
 }
 
-.text-black\/30 {
-  color: rgb(0 0 0 / 0.3);
-}
-
-.text-black {
+.text-card-bold {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(26 24 30 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1117,15 +1054,25 @@ video {
 }
 
 @font-face {
-  font-family: 'GalanoGrotesqueMedium';
+  font-family: 'Archivo';
 
-  src: url("../src/fonts/GalanoGrotesqueAltMedium.otf") format("opentype");
+  src: url("../src/fonts/Archivo-Font.ttf");
 }
 
-@font-face {
-  font-family: 'GalanoGrotesqueLight';
+.placeholder\:font-extralight::-moz-placeholder {
+  font-weight: 200;
+}
 
-  src: url("../src/fonts/GalanoGrotesqueAltLight.otf") format("opentype");
+.placeholder\:font-extralight::placeholder {
+  font-weight: 200;
+}
+
+.placeholder\:font-light::-moz-placeholder {
+  font-weight: 300;
+}
+
+.placeholder\:font-light::placeholder {
+  font-weight: 300;
 }
 
 .focus-within\:bg-nav-button-active:focus-within {
@@ -1150,10 +1097,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:text-primary-blue\/70:hover {
-  color: rgb(20 110 180 / 0.7);
-}
-
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1162,8 +1105,4 @@ video {
 .active\:outline-none:active {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.group:hover .group-hover\:text-primary-blue\/50 {
-  color: rgb(20 110 180 / 0.5);
 }

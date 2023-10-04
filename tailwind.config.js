@@ -4,9 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        primary: "GalanoGrotesqueMedium",
-        secondary: "GalanoGrotesqueLight",
-
+        primary: "Archivo",
       },
       colors:{
         'white-bg':'#fafafa',
@@ -17,6 +15,9 @@ module.exports = {
         'searchbar-header':'#F2F2F2',
         'filter-button-bg':'#E6E6E6',
         'filter-button-text':'#808080',
+        'heading':'#1A181E',
+        'subheading':'#4D4D4D',
+        'card-bold':'#1A181E',
       },
       boxShadow:{
         "table":"0px 2px 6px 0px rgba(26, 24, 30, 0.04)",
