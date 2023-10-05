@@ -9,7 +9,7 @@
 <body class="w-full h-screen bg-white-bg flex">
 
     <!--Side Navigation Bar-->
-    <aside class="fixed flex flex-col bg-[#1E2640] text-white w-56 h-full py-4 px-2.5 items-center">
+    <aside class="flex flex-col bg-[#1E2640] text-white flex-shrink-0 w-56 h-full py-4 px-2.5 items-center">
 
         <!--Navigation Bar Header-->
         <section class="flex items-center px-[8.5px] w-full justify-between mb-6 gap-3 flex-shrink-0">
@@ -187,10 +187,10 @@
         </nav>
     </aside>
 
-    <section class="w-full h-full ml-56">
+    <section class="w-full h-full flex-grow flex flex-col">
 
         <!--Header: Page title, Search Bar, Action Buttons-->
-        <header class="flex w-full sticky top-0 bg-white items-center justify-between border-b border-[#D9D9D9] px-8 py-3">
+        <header class="flex w-full bg-white items-center justify-between border-b border-[#D9D9D9] px-8 py-3">
 
             <!--Page Title-->
             <div class="flex gap-4 justify-start flex-grow">
@@ -255,7 +255,7 @@
         </header>
 
         <!--Dashboard-->
-        <main class="px-8 py-8">
+        <main class="px-8 py-8 overflow-y-auto flex-grow">
             
             <!--Overview Section-->
             <section class="mb-8">
@@ -346,7 +346,7 @@
             </section>
 
             <!--Transactions Section-->
-            <section class="h-full">
+            <section class="h-fit w-full">
 
                 <!--Title and Filter Buttons-->
                 <div class="flex flex-col mb-6 font-medium">
